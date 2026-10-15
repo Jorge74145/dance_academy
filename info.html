@@ -2,37 +2,48 @@
 <html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
-    <title>Informação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Academy - Notícias e Informações</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Dance Academy</h1>
         <p>uma academia de dança</p>
+        <button id="btn-theme" class="btn-interativo">Modo Escuro</button>
     </header>
+
     <nav>
         <a href="main.html">Home</a>
         <a href="info.html">Notícias</a>
         <a href="contacto.html">Contacto</a>
     </nav>
+
     <main>
-        <article>
-            <h1>informação</h1>
-            <p>#############################,##############################
-                ####################################################,########
-                ###########.
-            </p>
-            <p>localização Rua Exemplo, 123</p>
-            <h2></h2>
+        <section class="noticias">
+            <h2>Notícias e Informações</h2>
             
-            <aside>
+            <article class="card">
+                <h3>Abertura de Novas Turmas de Verão</h3>
+                <p>Estão abertas as inscrições para as oficinas intensivas de dança urbana e expressão corporal. Descontos especiais para novos alunos!</p>
+            </article>
+
+            <article class="card">
+                <h3>Espetáculo de Final do Ano</h3>
+                <p>Prepare-se para o nosso evento anual no Teatro Municipal. Os bilhetes estarão disponíveis brevemente na receção.</p>
+            </article>
+
+            <aside class="card">
                 <h3>Quer saber mais?</h3>
-                <p>mande um email para DanceAcademy@gmail.com</p>
+                <p>Envie um e-mail para <strong>DanceAcademy@gmail.com</strong> ou visita a nossa página de contacto.</p>
             </aside>
-            <p></p>
-        </article>
+        </section>
     </main>
+
     <footer>
-        <p>Site editdo por mota</p>
+        <p>&copy; 2026 Dance Academy - Todos os direitos reservados. Editado por Mota.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
+</html>
